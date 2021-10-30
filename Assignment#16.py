@@ -32,8 +32,8 @@
 #     Find number of characters in the given string
 #         Can you tell me how many characters are there using python?
 
-my_string = "Can you tell me how many characters are there in the string by using python?"
-print(f"The given string has {len(my_string)} characters.")
+# my_string = "Can you tell me how many characters are there in the string by using python?"
+# print(f"The given string has {len(my_string)} characters.")
 
 # <--------------- OUTPUT --------------->  
 
@@ -43,5 +43,10 @@ print(f"The given string has {len(my_string)} characters.")
 #         Hey! You can use a built-in python method to find the middle element. 
 #         Test your logics using python. Best of Luck!.
 
-# my_string= "Hey! You can use a built-in python method to find the middle element."
+my_string= "Built-in python method."
+middle= my_string [len(my_string)//2]
+print(f" The middle character if the given string is :- {middle} ")
 
+# <--------------- OUTPUT --------------->  
+
+# The middle character if the given string is :- t
